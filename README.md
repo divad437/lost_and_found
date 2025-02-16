@@ -16,7 +16,7 @@ Assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
     ```bash
     git clone https://github.com/divad437/lost_and_found
-    cd open_success
+    cd lost_and_found
     ```
 
 2. Créez un environnement virtuel et activez-le :
