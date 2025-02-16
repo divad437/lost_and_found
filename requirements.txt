@@ -3,9 +3,11 @@ cfgv==3.4.0
 distlib==0.3.9
 Django==5.1.6
 django-jazzmin==3.0.1
+django-phonenumber-field==8.0.0
 filelock==3.17.0
 identify==2.6.7
 nodeenv==1.9.1
+phonenumberslite==8.13.55
 platformdirs==4.3.6
 pre_commit==4.1.0
 PyYAML==6.0.2

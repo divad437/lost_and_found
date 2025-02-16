@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -123,10 +125,15 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+AUTH_USER_MODEL = 'users.User'
+
 
 JAZZMIN_SETTINGS = {
     "site_title": "LF Admin",
     "site_header": "LF Admin",
     "site_brand": "LF Admin",
     "welcome_sign": "Bienvenue dans l'interface d'administration de LF",
+    "show_ui_builder": True
 }
+
+PHONENUMBER_DEFAULT_REGION = 'CM'
