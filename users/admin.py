@@ -70,18 +70,10 @@ class CityAdmin(admin.ModelAdmin):
     list_display = ["name"]
     search_fields = ["name"]
     ordering = ["id"]
-    fields = ["name"]
+    fields = ["name", "slug"]
+    prepopulated_fields = {"slug": ("name",)}
     list_display_links = ["name"]
     list_filter = ["name"]
-    add_fieldsets = (
-        (
-            None,
-            {
-                "classes": ("wide",),
-                "fields": ("name",),
-            },
-        ),
-    )
 
 
 admin.site.unregister(Group)

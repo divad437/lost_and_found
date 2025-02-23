@@ -41,6 +41,7 @@ class User(AbstractUser):
 
 class City(models.Model):
     name = models.CharField(_("city name"), max_length=50)
+    slug = models.SlugField(_("slug"), max_length=50, blank=True)
 
     class Meta:
         verbose_name = _("city")
