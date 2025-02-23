@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'users',
+    'documents',
 ]
 
 MIDDLEWARE = [
@@ -137,3 +138,9 @@ JAZZMIN_SETTINGS = {
 }
 
 PHONENUMBER_DEFAULT_REGION = 'CM'
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = str(BASE_DIR / 'media')
+
+MINIMUM_IMAGES_REQUIRED = 2
