@@ -8,6 +8,7 @@ filelock==3.17.0
 identify==2.6.7
 nodeenv==1.9.1
 phonenumberslite==8.13.55
+pillow==11.1.0
 platformdirs==4.3.6
 pre_commit==4.1.0
 PyYAML==6.0.2
